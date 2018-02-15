@@ -1,0 +1,33 @@
+.summary{
+    display: inline-block;
+    width: 50%;
+    min-width: 300px;
+    text-align: left;
+}
+
+@media screen and (max-width: 639px){
+    .summary{
+        width: 90%;
+    }
+}
+
+.summary .content{
+    height: 300px;
+    border: 1px solid;
+    text-align: left;
+    overflow: scroll;
+    padding: 10px;
+}
+
+.summary-header{
+    font-size: 25px;
+    margin-bottom: 15px
+}
+
+.summary table{
+    width: 100%;
+}
+
+.summary th{
+    width: 20%;
+}
